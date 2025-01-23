@@ -1,6 +1,6 @@
 # Connectify - Video Conferencing App
 
-Connectify is a modern video conferencing app built with **Next.js** and **React**. It allows users to host and join video meetings, share screens, and interact via a chat interface. Connectify leverages the **Stream Video SDK** for real-time video communication and integrates user authentication with **Clerk**.
+[Connectify](https://connectify-7t6q.vercel.app/) is a modern video conferencing app built with **Next.js** and **React**. It allows users to host and join video meetings, share screens, and interact via a chat interface. Connectify leverages the **Stream Video SDK** for real-time video communication and integrates user authentication with **Clerk**.
 
 ## Features
 
@@ -48,14 +48,14 @@ Connectify is a modern video conferencing app built with **Next.js** and **React
 3. **Set Up Environment Variables:**
    Create a .env.local file in the root of the project and add the following (replace with your own credentials):
 
-   **NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY**=<your-clerk-publishable-key>
-   **CLERK_SECRET_KEY**=<your-clerk-secret-key>
+   **NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY**=your-clerk-publishable-key
+   **CLERK_SECRET_KEY**=your-clerk-secret-key
    **NEXT_PUBLIC_CLERK_SIGN_IN_URL**=/sign-in
    **NEXT_PUBLIC_CLERK_SIGN_UP_URL**=/sign-up  
    **NEXT_PUBLIC_STREAM_API_KEY**=your-stream-api-key>
-   **STREAM_SECRET_KEY**=<your-stream-secret-key>
-   **NEXT_PUBLIC_BASE_URL**=<your-base-url>
-
+   **STREAM_SECRET_KEY**=your-stream-secret-key
+   **NEXT_PUBLIC_BASE_URL**=your-base-url
+   
 4. **Run the Development Server:**
    To start the local development server, run the following command:
 
